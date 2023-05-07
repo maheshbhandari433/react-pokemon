@@ -23,8 +23,8 @@ const Card = ({ name }) => {
       {details && (
         <div>
          <img src={`https://img.pokemondb.net/artwork/${name}.jpg`} alt={name} />
-          <p>Height: {details.id}</p>
-          <p>Weight: {details.name}</p>
+          <p>Id: {details.id}</p>
+          <p>Name: {details.name}</p>
         </div>
       )}
     </div>
